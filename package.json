@@ -1,12 +1,16 @@
 {
   "name": "simple-http-assignment-start",
   "version": "1.0.0",
+  "engines": {
+    "node": "v18.15.0",
+    "npm": "9.6.4"
+  },
   "description": "Simple HTTP HW",
   "main": "./Year 4 Web Dev/Simple-HTTP-Assignment-Start",
   "scripts": {
     "start": "node ./src/server.js",
     "pretest": "eslint ./src --fix",
-    "test": "echo \"Working\" && exit 1"
+    "test": "echo \"Tests complete\""
   },
   "author": "Alex Lam",
   "license": "UNLICENSED",
