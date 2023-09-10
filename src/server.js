@@ -9,7 +9,7 @@ const port = process.env.PORT || process.env.NODE_PORT || 3000;
 
 const onRequest = (request, response) => {
   console.log(request.url);
-
+    //All cases of different URL additions
   switch (request.url) {
     case '/':
         htmlHandler.getIndex(request, response);
